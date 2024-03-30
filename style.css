@@ -1,0 +1,155 @@
+.bg-full {
+  background-color:black;
+}
+
+.hello{
+background-color:rgb(4, 3, 17);
+height:100vh;
+width:100%;
+background-size:cover;
+background-repeat: no-repeat;
+}
+
+.navbar-dark .navbar-brand {
+  color: #fff;
+  padding:20px;
+}
+
+.navbar li{
+  padding-left:50px;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #fff;
+  margin-right: 95px;
+  margin-bottom: 5px;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  margin-left: 100px;
+}
+
+.hello h1{
+padding-top: 250px;
+margin-left:300px;
+font-size: 65px;
+color:white;
+}
+
+.hello h2{
+padding-top: 50px;
+margin-left:430px;
+font-size: 65px;
+color:white;
+}
+
+
+.d-flex{
+padding-left: 180px;
+padding-right: 200px;
+padding-top: 50px;
+}
+
+.d-flex .btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left:40px;
+}
+
+.form-control{
+margin-left: 40px;
+}
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+.search .d-flex {
+  padding-left: 40px;
+  padding-right: 80px;
+  padding-top: 50px;
+  padding-bottom:50px;
+  margin-left: 120px;
+  margin-right: 120px;
+  background-color: white;
+}
+
+
+.search{
+padding-top: 70px;
+padding-bottom: 70px;
+background-color: #dc3545;
+}
+
+.search h1{
+margin-bottom: 50px;
+color:white;
+margin-left: 530px;
+font-size: 50px;
+}
+
+/*--------------------------------------coding---------------------------------------------------------------------------------------*/
+  @media (min-width: 320px) and (max-width: 767px){
+    .hello h1{
+padding-top: 120px;
+margin-left:30px;
+font-size: 20px;
+}
+
+.hello h2{
+padding-top: 50px;
+margin-left:30px;
+font-size: 20px;
+}
+
+.d-flex{
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 70px;
+
+}
+
+.btn-danger {
+    margin-left: 20px;
+}
+
+.form-control {
+    margin-left: 10px;
+}
+
+.d-flex .btn-danger {
+    padding-right:60px;
+    margin-left: 10px;
+}
+
+.library h1 {
+    color: white;
+    padding-left: 90px;
+}
+.library h3 {
+    padding-left: 20px;
+    font-size:18px;
+}
+
+.card{
+  margin-top:30px;
+  width:18.5rem !important;
+}
+.search h1 {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.search .d-flex {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+  }
